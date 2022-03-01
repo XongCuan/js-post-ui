@@ -1,5 +1,6 @@
 import postApi from "./api/postApi";
 import studentApi from "./api/studentApi";
+import { getAllcities } from "./api/cityApi";
 
 console.log("Hello cong dep trai");
 
