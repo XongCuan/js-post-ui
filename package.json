@@ -1,7 +1,6 @@
 {
   "name": "js-post-ui",
   "version": "0.0.0",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,5 +8,8 @@
   },
   "devDependencies": {
     "vite": "^2.8.4"
+  },
+  "dependencies": {
+    "axios": "^0.26.0"
   }
 }
