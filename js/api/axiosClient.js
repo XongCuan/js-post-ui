@@ -35,16 +35,15 @@ axiosClient.interceptors.response.use(
     return response.data;
   },
   function (error) {
-    
     console.log("axiosClient - response error", error.response);
     if (!error.response) {
       throw new Error("Network error. Please try again later");
     }
 
-    if (error.response.status === 401) {
-      window.location.assign("/login.html");
-      return;
-    }
+    // if (error.response.status === 401) {
+    //   // window.location.assign("/login.html");
+    //   return;
+    // }
     // Do something with response error
     return Promise.reject(error);
   }
